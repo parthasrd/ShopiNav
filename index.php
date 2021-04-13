@@ -33,16 +33,6 @@ $token =  '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';
 
 <?php
 
-$array_del = array(
-    'script_tag' => array(
-        'event' => 'onload',
-        'cache' => false,
-        'src' => 'https://shopinav.infotechsolz.com/js/shopify.js'
-    )
-);
-$scriptTag_del = shopify_call($token, $shop, "/admin/api/2019-07/script_tags.json", $array, 'DELETE');
-$scriptTag_del = json_decode($scriptTag_del['response'], JSON_PRETTY_PRINT);
-
 $array = array(
     'script_tag' => array(
         'event' => 'onload',
@@ -52,6 +42,9 @@ $array = array(
 );
 $scriptTag = shopify_call($token, $shop, "/admin/api/2019-07/script_tags.json", $array, 'POST');
 $scriptTag = json_decode($scriptTag['response'], JSON_PRETTY_PRINT);
+
+$dashboard = conf::SITE_URL."dashboard.php";
+header("Location: " . $dashboard);
 
 ?>
 
