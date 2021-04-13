@@ -1,11 +1,12 @@
 <?php
 $shopify = $_GET;
-echo "<pre>";
-print_r($shopify);
-echo $shopify['shop'];
-echo "</pre>";
-$shop = 'itzapptst';
 
+//echo "<pre>";
+//print_r($shopify);
+//echo $shopify['shop'];
+//echo "</pre>";
+
+$shop = 'itzapptst';
 $token =  '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';
 ?>
 <!DOCTYPE html>
@@ -21,8 +22,12 @@ $token =  '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';
         <script src="js/dashboard.js" ></script>
 
     </head>
-    <body class="welcometo_xxx">
-        <div class="coming-soon_xxx">Coming Soon</div>
+    <body class="welcometo">
+        <div class="coming-soon_xxx">Coming Soon
+        <br>
+            <a href="dashboard.php">Click Here To Login</a>
+        </div>
+
     </body>
 </html>
 
