@@ -3,7 +3,6 @@ $shopify = $_GET;
 echo "<pre>";
 print_r($shopify);
 echo $shopify['shop'];
-echo "testing";
 echo "</pre>";
 $shop = 'itzapptst';
 
