@@ -23,7 +23,7 @@ $token =  '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';
 
     </head>
     <body class="welcometo">
-        <div class="coming-soon_xxx">Coming Soon
+        <div class="coming-soon">Coming Soon
         <br>
             <a href="dashboard.php">Click Here To Login</a>
         </div>
