@@ -1,0 +1,49 @@
+body{ background: #FFFFFF; font-size: 14px;}
+.welcometo{
+    background-color: #0f6674;
+    color: #ffffff;
+}
+.btn{ font-size: 14px; }
+.coming-soon{
+    font-size: 60px;
+    text-align: center;
+    margin: 200px auto;
+}
+.leftbar{
+    border-right:#7ed2df;
+    height: 600px;
+}
+.breadcrumb { text-transform: uppercase; }
+.dash-heading{ text-transform: uppercase; padding: 15px 10px; color: #FFFFFF;}
+.add-new-header{ padding: 20px 0 0; }
+.seprat{ padding-bottom: 20px;}
+
+.sidebar ul > li > a.active{ color: #FFFFFF;}
+.sidebar > ul > li { padding: .25rem 1.75rem; }
+.getit_change{ width:100px; font-weight: 700; }
+.btn_wdth_100{ width:100px; }
+.c_success{ color: #3e7d24; }
+.c_danger{ color: #FF0000; }
+.barstyl{ padding: 10px; text-align: center;}
+.genbttn { padding: 10px;}
+
+.cb_txt { display: inline-block; float: none; vertical-align: middle; padding-right: 1.25em; }
+.cb_btn { display: inline-block; float: none; vertical-align: middle; }
+.cb_txt h1{ font-size: 32px; }
+.cb_txt h2{ font-size: 24px; }
+.cb_txt h3{ font-size: 18.72px; }
+.cb_txt h4{ font-size: 16px; }
+.cb_txt h5{ font-size: 13.28px; }
+.cb_txt h6{ font-size: 10.72px; }
+
+.btn-blue {
+    color: #fff;
+    background-color: #375d84;
+    border-color: #375d84;
+}
+
+.btn-blue:hover {
+    color: #fff;
+    background-color: #071e35;
+    border-color: #071e35;
+}
