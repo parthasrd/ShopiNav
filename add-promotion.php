@@ -65,16 +65,16 @@ $page_name="add_bar";
                         <option value="H6">H6</option>
                     </select>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <label class="">Banner Text</label>
                     <input type="text" name="banner_text" class="form-control">
 
                     <div class="row" style="padding-top: 10px;">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <label for="text-field">Text Color</label>
                             <input type="text" name="text_color" id="text_color" class="demo form-control" value="#70c24a" style="height: 28px;">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <label for="text-field">Background Color</label>
                             <input type="text" name="bg_color" id="bg_color" class="demo form-control" value="#FFF000" style="height: 28px;">
                         </div>
@@ -83,7 +83,7 @@ $page_name="add_bar";
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <input id="is_add_bttn" type="checkbox" name="is_button" value="1">
                     <label for="is_add_bttn" class="">Add Button</label> (Button Caption Here)
                     <input type="text" name="bttn_text" class="form-control">
@@ -91,28 +91,28 @@ $page_name="add_bar";
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <label class="">Button Link</label>
                     <input type="text" name="bttn_link" class="form-control">
                 </div>
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <label class="">Add Custom CSS For Button</label>
                     <textarea name="bttn_cust_css" class="form-control" rows="5"></textarea>
                 </div>
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <input id="is_another_tab" type="checkbox" name="is_another_tab" value="1">
                     <label for="is_another_tab" class="">Open in another tab</label>
                 </div>
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <label class="">Status&nbsp;</label>
                     <input id="status_y" type="radio" value="Y" name="status" > <label for="status_y">Active</label>
                     <input id="status_n" type="radio" value="N" name="status" checked> <label for="status_n">In-active</label>
@@ -120,7 +120,7 @@ $page_name="add_bar";
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <button type="button" id="add_bar_bttn" class="btn btn-blue">SAVE</button>
                 </div>
             </div>

@@ -95,16 +95,16 @@ else{
                         <?php } ?>
                     </select>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-10">
                     <label class="">Banner Text</label>
                     <input type="text" name="banner_text" value="<?php echo $bars_title; ?>" class="form-control">
 
                     <div class="row" style="padding-top: 10px;">
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <label for="text-field">Text Color</label>
                             <input type="text" name="text_color" id="text_color" class="demo form-control" value="<?php echo $text_color; ?>" style="height: 28px;">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-6">
                             <label for="text-field">Background Color</label>
                             <input type="text" name="bg_color" id="bg_color" class="demo form-control" value="<?php echo $bg_color; ?>" style="height: 28px;">
                         </div>
@@ -113,7 +113,7 @@ else{
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <input id="is_add_bttn" type="checkbox" name="is_button" value="1"<?php if($is_button){ echo "checked"; } ?> >
                     <label for="is_add_bttn" class="">Add Button</label> (Button Caption Here)
                     <input type="text" name="bttn_text" value="<?php echo stripslashes($bttn_text); ?>" class="form-control">
@@ -121,28 +121,28 @@ else{
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <label class="">Button Link</label>
                     <input type="text" name="bttn_link" value="<?php echo stripslashes($bttn_link); ?>" class="form-control">
                 </div>
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <label class="">Add Custom CSS For Button</label>
                     <textarea name="bttn_cust_css" class="form-control" rows="5"><?php echo stripslashes($bttn_cust_css); ?></textarea>
                 </div>
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <input id="is_another_tab" type="checkbox" name="is_another_tab" value="1"<?php if($is_another_tab){ echo " checked"; } ?> >
                     <label for="is_another_tab" class="">Open in another tab</label>
                 </div>
             </div>
 
             <div class="row seprat">
-                <div class="col-md-10">
+                <div class="col-md-12">
                     <button type="button" id="save_bar_bttn" class="btn btn-blue">Save</button>
 
                     <button type="button" id="sp_bar_bttn" class="btn btn-blue">Save & Publish</button>
