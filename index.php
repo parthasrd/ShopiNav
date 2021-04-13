@@ -1,4 +1,5 @@
 <?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/includes/autoload.php');
 $shopify = $_GET;
 
 //echo "<pre>";
@@ -43,8 +44,6 @@ $array = array(
 $scriptTag = shopify_call($token, $shop, "/admin/api/2019-07/script_tags.json", $array, 'POST');
 $scriptTag = json_decode($scriptTag['response'], JSON_PRETTY_PRINT);
 
-$dashboard = conf::SITE_URL."dashboard.php";
-header("Location: " . $dashboard);
 
 ?>
 
@@ -111,4 +110,6 @@ function shopify_call($token, $shop, $api_endpoint, $query = array(), $method = 
     }
 
 }
+
+echo "<script>window.location.href='dashboard.php'</script>";
 ?>
